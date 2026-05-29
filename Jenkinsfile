@@ -4,22 +4,22 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                echo 'Checked Out'
+                echo 'Checked Out Changed'
             }
         }
         stage('Build') {
             steps {
-                echo 'Built'
+                echo 'Build Changed'
             }
         }
         stage('Test') {
             steps {
-                echo 'TESTING'
+                echo 'TESTING Changed'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deployed'
+                echo 'Deployment Changed'
             }
         }
     }
